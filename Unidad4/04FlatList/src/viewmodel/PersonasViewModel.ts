@@ -1,4 +1,4 @@
-import { repositoryPersonas } from "@/data/repositoryPersonas";
+import { repositoryPersonas } from "@/model/data/repositoryPersonas";
 import { Persona } from "@/model/entities/Persona";
 
 type MostrarAlerta = (mensaje: string) => void;
@@ -17,10 +17,6 @@ export class PersonasViewModel {
     return this._personas;
   }
 
-  set personas(personas: Persona[]) {
-    this._personas = personas;
-  }
-
   get personaSeleccionada(): Persona | null {
     return this._personaSeleccionada;
   }
@@ -29,7 +25,7 @@ export class PersonasViewModel {
     this._personaSeleccionada = persona;
   }
 
-  seleccionarPersona(persona: Persona): void {
+  private seleccionarPersona(persona: Persona): void {
     this.personaSeleccionada = persona;
     this._mostrarAlerta(`${persona.nombre} ${persona.apellidos}`);
   }

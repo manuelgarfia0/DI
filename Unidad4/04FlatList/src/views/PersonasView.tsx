@@ -20,7 +20,9 @@ export default function PersonasView() {
       <FlatList
         data={viewModel.personas}
         keyExtractor={(persona) => persona.id.toString()}
-        renderItem={({ item }) => <PersonaItem persona={item} onPress={viewModel.seleccionarPersona.bind(viewModel)} />}
+        renderItem={({ item }) => (
+          <PersonaItem persona={item} onPress={(persona) => (viewModel.personaSeleccionada = persona)} />
+        )}
         contentContainerStyle={styles.list}
       />
     </View>

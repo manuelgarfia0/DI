@@ -1,0 +1,15 @@
+1. Crear proyecto: 
+
+npx create-expo-app --template
+
+2. Eliminar archivos innecesarios
+
+npm reset-project
+
+3. Instalar ngrok si da fallos(casi siempre da fallos)
+
+npx expo install @expo/ngrok
+
+4. Ejecutar proyecto (W para ver el web)
+
+npx expo start --tunnel
