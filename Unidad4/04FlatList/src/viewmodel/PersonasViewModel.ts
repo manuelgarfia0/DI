@@ -1,16 +1,12 @@
-import { repositoryPersonas } from "@/model/data/repositoryPersonas";
 import { Persona } from "@/model/entities/Persona";
-
-type MostrarAlerta = (mensaje: string) => void;
+import { IPersonasRepository } from "@/model/repositories/IPersonasRepository";
 
 export class PersonasViewModel {
-  private _personas: Persona[];
+  private readonly _personas: Persona[];
   private _personaSeleccionada: Persona | null = null;
-  private readonly _mostrarAlerta: MostrarAlerta;
 
-  constructor(mostrarAlerta: MostrarAlerta) {
-    this._personas = repositoryPersonas.obtenerPersonas();
-    this._mostrarAlerta = mostrarAlerta;
+  constructor(personasRepository: IPersonasRepository) {
+    this._personas = personasRepository.obtenerPersonas();
   }
 
   get personas(): Persona[] {
@@ -21,12 +17,8 @@ export class PersonasViewModel {
     return this._personaSeleccionada;
   }
 
-  set personaSeleccionada(persona: Persona | null) {
+  seleccionarPersona(persona: Persona): Persona {
     this._personaSeleccionada = persona;
-  }
-
-  private seleccionarPersona(persona: Persona): void {
-    this.personaSeleccionada = persona;
-    this._mostrarAlerta(`${persona.nombre} ${persona.apellidos}`);
+    return persona;
   }
 }

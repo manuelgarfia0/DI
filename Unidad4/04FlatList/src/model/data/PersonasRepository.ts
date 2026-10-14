@@ -1,13 +1,8 @@
 import { Persona } from "@/model/entities/Persona";
+import { IPersonasRepository } from "@/model/repositories/IPersonasRepository";
 
-export class repositoryPersonas {
-  /**
-   * Función que devuelve un array de personas
-   * Pre: Ninguna
-   * Post: El array nunca estará vacío
-   * @returns Array de personas
-   */
-  static obtenerPersonas(): Persona[] {
+export class PersonasRepository implements IPersonasRepository {
+  obtenerPersonas(): Persona[] {
     return [
       new Persona(1, "Lucía", "García López"),
       new Persona(2, "Mateo", "Martínez Ruiz"),

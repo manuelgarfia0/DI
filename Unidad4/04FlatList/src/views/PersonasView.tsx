@@ -1,18 +1,13 @@
-import { useState } from "react";
 import { Alert, FlatList, Platform, Pressable, StyleSheet, Text, View } from "react-native";
 
 import { Persona } from "@/model/entities/Persona";
 import { PersonasViewModel } from "@/viewmodel/PersonasViewModel";
 
-export default function PersonasView() {
-  const [viewModel] = useState(
-    () =>
-      new PersonasViewModel((mensaje) =>
-        Platform.OS === "web"
-          ? globalThis.alert(mensaje)
-          : Alert.alert("Persona seleccionada", mensaje),
-      ),
-  );
+type PersonasViewProps = {
+  viewModel: PersonasViewModel;
+};
+
+export default function PersonasView({ viewModel }: PersonasViewProps) {
 
   return (
     <View style={styles.container}>
@@ -20,9 +15,7 @@ export default function PersonasView() {
       <FlatList
         data={viewModel.personas}
         keyExtractor={(persona) => persona.id.toString()}
-        renderItem={({ item }) => (
-          <PersonaItem persona={item} onPress={(persona) => (viewModel.personaSeleccionada = persona)} />
-        )}
+        renderItem={({ item }) => <PersonaItem persona={item} onPress={viewModel.seleccionarPersona.bind(viewModel)} />}
         contentContainerStyle={styles.list}
       />
     </View>
@@ -31,12 +24,24 @@ export default function PersonasView() {
 
 type PersonaItemProps = {
   persona: Persona;
-  onPress: (persona: Persona) => void;
+  onPress: (persona: Persona) => Persona;
 };
 
 function PersonaItem({ persona, onPress }: PersonaItemProps) {
   return (
-    <Pressable style={styles.persona} onPress={() => onPress(persona)}>
+    <Pressable
+      style={styles.persona}
+      onPress={() => {
+        const personaSeleccionada = onPress(persona);
+        const mensaje = `${personaSeleccionada.nombre} ${personaSeleccionada.apellidos}`;
+
+        if (Platform.OS === "web") {
+          globalThis.alert(mensaje);
+        } else {
+          Alert.alert("Persona seleccionada", mensaje);
+        }
+      }}
+    >
       <Text style={styles.nombre}>{persona.nombre}</Text>
       <Text style={styles.apellidos}>{persona.apellidos}</Text>
     </Pressable>
