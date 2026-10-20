@@ -4,7 +4,7 @@ npx create-expo-app --template
 
 2. Eliminar archivos innecesarios
 
-npm reset-project
+npm run reset-project
 
 3. Instalar ngrok si da fallos(casi siempre da fallos)
 
