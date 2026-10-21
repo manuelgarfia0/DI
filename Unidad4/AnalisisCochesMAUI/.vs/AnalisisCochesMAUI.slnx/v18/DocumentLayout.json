@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\views\\modelospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\views\\modelospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\views\\detallemodelopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\views\\detallemodelopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\models\\entities\\marcacoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\models\\entities\\marcacoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\models\\entities\\modelomarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\models\\entities\\modelomarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\models\\data\\marcacocherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\models\\data\\marcacocherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\models\\data\\modelomarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\models\\data\\modelomarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\viewmodels\\cochesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\viewmodels\\cochesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\views\\modelospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\views\\modelospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\views\\detallemodelopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\views\\detallemodelopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manuel.garfia\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2045059515\\MainPage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|c:\\users\\manuel.garfia\\desktop\\di\\unidad4\\analisiscochesmaui\\analisiscochesmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36437AD1-08E0-413B-B0BB-38D5B14D0152}|AnalisisCochesMAUI\\AnalisisCochesMAUI.csproj|solutionrelative:analisiscochesmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CochesVM.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\ViewModels\\CochesVM.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\ViewModels\\CochesVM.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\ViewModels\\CochesVM.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\ViewModels\\CochesVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:18:06.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModeloMarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Data\\ModeloMarcaRepository.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Models\\Data\\ModeloMarcaRepository.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Data\\ModeloMarcaRepository.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Models\\Data\\ModeloMarcaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:17:52.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MarcaCocheRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Data\\MarcaCocheRepository.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Models\\Data\\MarcaCocheRepository.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Data\\MarcaCocheRepository.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Models\\Data\\MarcaCocheRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:17:45.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModeloMarca.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Entities\\ModeloMarca.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Models\\Entities\\ModeloMarca.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Entities\\ModeloMarca.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Models\\Entities\\ModeloMarca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:17:31.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarcaCoche.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Entities\\MarcaCoche.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Models\\Entities\\MarcaCoche.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Models\\Entities\\MarcaCoche.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Models\\Entities\\MarcaCoche.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:17:27.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleModeloPage.xaml",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:19:07.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\ModelosPage.xaml.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Views\\ModelosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\ModelosPage.xaml.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Views\\ModelosPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:19:00.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:19:44.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModelosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\ModelosPage.xaml",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Views\\ModelosPage.xaml",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\ModelosPage.xaml",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Views\\ModelosPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:18:53.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\MauiProgram.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\MauiProgram.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:19:44.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\App.xaml.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\App.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAABQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:19:44.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\AppShell.xaml.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\AppShell.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:19:44.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\AppShell.xaml",
+              "RelativeToolTip": "AnalisisCochesMAUI\\AppShell.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:19:44.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2045059515\\MainPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2045059515\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\manuel.garfia\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2045059515\\MainPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2045059515\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:19:19.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DetalleModeloPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml.cs",
+              "RelativeDocumentMoniker": "AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml.cs",
+              "ToolTip": "C:\\Users\\manuel.garfia\\Desktop\\DI\\Unidad4\\AnalisisCochesMAUI\\AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml.cs",
+              "RelativeToolTip": "AnalisisCochesMAUI\\Views\\DetalleModeloPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:19:10.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnalisisCochesMAUI.Views.ModelosPage"
+             Title="Modelos">
+    <VerticalStackLayout Padding="24" Spacing="16">
+        <Label Text="Selecciona un modelo"
+               Style="{StaticResource Headline}" />
+        <CollectionView ItemsSource="{Binding ListadoModelos}"
+                        SelectionMode="Single"
+                        SelectionChanged="OnModeloSeleccionado">
+            <CollectionView.EmptyView>
+                <Label Text="No hay modelos disponibles para esta marca."
+                       Padding="12" />
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="16" Margin="0,4">
+                        <Label Text="{Binding Nombre}"
+                               Style="{StaticResource SubHeadline}" />
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

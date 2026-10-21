@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnalisisCochesMAUI.Views.DetalleModeloPage"
+             Title="Detalle del modelo">
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="16">
+            <Label Text="{Binding ModeloSeleccionado.Nombre}"
+                   Style="{StaticResource Headline}"
+                   SemanticProperties.HeadingLevel="Level1" />
+            <Image Source="{Binding ModeloSeleccionado.Foto}"
+                   HeightRequest="220"
+                   Aspect="AspectFit">
+                <Image.Triggers>
+                    <DataTrigger TargetType="Image"
+                                 Binding="{Binding ModeloSeleccionado.Foto}"
+                                 Value="">
+                        <Setter Property="IsVisible" Value="False" />
+                    </DataTrigger>
+                </Image.Triggers>
+            </Image>
+            <Label Text="Dimensiones"
+                   Style="{StaticResource SubHeadline}" />
+            <Label Text="{Binding ModeloSeleccionado.Longitud, StringFormat='{0:F2} m'}" />
+            <Label Text="{Binding ModeloSeleccionado.Anchura, StringFormat='{0:F2} m'}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
