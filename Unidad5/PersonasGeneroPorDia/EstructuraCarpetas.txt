@@ -8,6 +8,11 @@ PersonasGeneroPorDia/
     |   |   renderiza ListadoPersonasView.
     |   |
     |-- data/
+    |   |-- dtos/
+    |   |   |-- PersonaDTO.ts (ejemplo)
+    |   |   |
+    |   |   |   Objeto de transferencia de datos para transportar una
+    |   |   |   persona entre la fuente de datos y el dominio.
     |   |-- repositories/
     |       |-- PersonaRepository.ts
     |       |-- PersonaRepositoryVacio.ts
@@ -64,3 +69,26 @@ ListadoPersonasView
 
 El contenedor de Inversify configura las implementaciones y permite
 sustituir el repositorio para probar distintos escenarios.
+
+Ejemplo de DTO:
+
+src/data/dtos/PersonaDTO.ts
+
+export interface PersonaDTO {
+    dni: string;
+    nombre: string;
+    genero: string;
+}
+
+Conversion de DTO a entidad:
+
+const persona = new Persona(dto.dni, dto.nombre, dto.genero);
+
+Propiedades de la entidad Persona:
+
+- dni: getter solamente; no se puede modificar despues de construir la entidad.
+- nombre: getter y setter; se puede consultar y modificar.
+- genero: getter y setter; se puede consultar y modificar.
+
+El DTO no contiene logica de negocio. La logica permanece en Persona y
+PersonaUsecase.
