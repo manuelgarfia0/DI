@@ -6,6 +6,17 @@ npx create-expo-app --template
 
 npm run reset-project
 
+3. Instalar Invesify
+
+npm install inversify reflect-metadata
+
+4. Instalar dependencias
+
+npm install --save-dev @babel/plugin-proposal-decorators
+npm install --save-dev @types/reflect-metadata @babel/plugin-proposal-decorators
+npm install --save-dev babel-plugin-transform-typescript-metadata
+npm install --save-dev @types/inversify
+
 3. Instalar ngrok si da fallos(casi siempre da fallos)
 
 npx expo install @expo/ngrok

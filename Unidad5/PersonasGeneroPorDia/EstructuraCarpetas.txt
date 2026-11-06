@@ -1,0 +1,66 @@
+PersonasGeneroPorDia/
+|-- src/
+    |-- app/
+    |   |-- _layout.tsx
+    |   |-- index.tsx
+    |   |
+    |   |   La ruta Expo Router solo resuelve las dependencias y
+    |   |   renderiza ListadoPersonasView.
+    |   |
+    |-- data/
+    |   |-- repositories/
+    |       |-- PersonaRepository.ts
+    |       |-- PersonaRepositoryVacio.ts
+    |       |-- PersonaRepositoryDoscientas.ts
+    |       |
+    |       |   Implementaciones de IPersonaRepository.
+    |       |   La primera contiene datos de demostracion, la segunda
+    |       |   no contiene personas y la tercera genera 200 personas.
+    |       |
+    |-- di/
+    |   |-- container.ts
+    |   |-- types.ts
+    |   |
+    |   |   Configuracion de Inversify y tokens de inyeccion.
+    |   |
+    |-- domain/
+    |   |-- entities/
+    |   |   |-- Persona.ts
+    |   |   |
+    |   |   |   Entidad Persona con dni de solo lectura y nombre y genero
+    |   |   |   modificables.
+    |   |-- interfaces/
+    |   |   |-- repositories/
+    |   |   |   |-- IPersonaRepository.ts
+    |   |   |-- usecases/
+    |   |       |-- IPersonaUsecase.ts
+    |   |-- usecases/
+    |       |-- PersonaUsecase.ts
+    |       |
+    |       |   Aplica la regla: dias pares muestran hombres y dias
+    |       |   impares muestran mujeres.
+    |       |
+    |-- presentation/
+        |-- viewmodels/
+        |   |-- ListadoPersonasVM.ts
+        |   |
+        |   |   Expone la lista filtrada y el total para la vista.
+        |-- views/
+            |-- ListadoPersonasView.tsx
+            |
+            |   Renderiza el listado, el total y el estado vacio.
+
+
+Flujo de dependencias:
+
+ListadoPersonasView
+    -> ListadoPersonasVM
+        -> IPersonaUsecase
+            -> PersonaUsecase
+                -> IPersonaRepository
+                    -> PersonaRepository
+                    -> PersonaRepositoryVacio
+                    -> PersonaRepositoryDoscientas
+
+El contenedor de Inversify configura las implementaciones y permite
+sustituir el repositorio para probar distintos escenarios.
