@@ -1,0 +1,121 @@
+Ejercicio04/
+|-- src/
+    |-- app/
+    |   |-- _layout.tsx
+    |   |-- index.tsx
+    |   |
+    |   |   La ruta de Expo Router crea las dependencias y renderiza
+    |   |   PersonaDelDiaView.
+    |   |
+    |   |-- data/
+    |   |   |-- personasMock.ts
+    |   |   |   |
+    |   |   |   |   Mock estatico con 7 personas inventadas.
+    |   |   |
+    |   |   |-- repositories/
+    |   |       |-- PersonaRepository.ts
+    |   |       |   |
+    |   |       |   |   Implementa IPersonaRepository y devuelve el mock.
+    |   |       |
+    |   |-- domain/
+    |   |   |-- entities/
+    |   |   |   |-- Persona.ts
+    |   |   |   |   |
+    |   |   |   |   |   Entidad Persona con id de solo lectura y nombre,
+    |   |   |   |   |   apellidos y fechaNacimiento modificables.
+    |   |   |   |
+    |   |   |-- interfaces/
+    |   |   |   |-- repositories/
+    |   |   |   |   |-- IPersonaRepository.ts
+    |   |   |   |   |   |
+    |   |   |   |   |   |   + getListadoPersonas(): Persona[]
+    |   |   |   |   |
+    |   |   |   |-- usecases/
+    |   |   |       |-- IPersonaUsecase.ts
+    |   |   |       |   |
+    |   |   |       |   |   + getPersonaDelDia(): Persona
+    |   |   |       |
+    |   |   |-- usecases/
+    |   |       |-- PersonaUsecase.ts
+    |   |           |   |
+    |   |           |   |   Implementa IPersonaUsecase.
+    |   |           |   |   Recibe IPersonaRepository por inyeccion.
+    |   |           |   |
+    |   |           |   |   personaRepository: IPersonaRepository
+    |   |           |   |   constructor(personaRepository: IPersonaRepository)
+    |   |           |   |   + getPersonaDelDia(): Persona
+    |   |           |   |       Devuelve la persona correspondiente al dia
+    |   |           |   |       de la semana.
+    |   |           |
+    |   |-- presentation/
+    |       |-- viewmodels/
+    |       |   |-- PersonaDelDiaVM.ts
+    |       |   |   |
+    |       |   |   |   Recibe IPersonaUsecase por inyeccion.
+    |       |   |   |   No mantiene una Persona ni un color por separado;
+    |       |   |   |   conserva unicamente PersonaConColor.
+    |       |   |   |
+    |       |   |   |   personaUsecase: IPersonaUsecase
+    |       |   |   |   + personaConColor: PersonaConColor (get)
+    |       |   |   |   + nombreCompleto: string (get)
+    |       |   |   |   constructor(personaUsecase: IPersonaUsecase)
+    |       |   |   |       Llama a cargarPersona().
+    |       |   |   |   - cargarPersona()
+    |       |   |   |       Obtiene Persona mediante el caso de uso y la
+    |       |   |   |       transforma con PersonaConColorMapper.
+    |       |   |   |
+    |       |   |-- views/
+    |       |       |-- PersonaDelDiaView.tsx
+    |       |           |
+    |       |           |   Instancia PersonaDelDiaVM.
+    |       |           |   Muestra por pantalla vm.nombreCompleto.
+    |       |           |   Usa vm.personaConColor para las iniciales,
+    |       |           |   la fecha de nacimiento y el color visual.
+    |       |           |
+    |       |-- models/
+    |           |-- DTO/
+    |           |   |-- PersonaConColor.ts
+    |           |   |   |
+    |           |   |   |   Modelo de presentacion que contiene los datos
+    |           |   |   |   de Persona y un color asignado por posicion.
+    |           |   |   |
+    |           |   |   |   + id: number (get)
+    |           |   |   |   + nombre: string (get, set)
+    |           |   |   |   + apellidos: string (get, set)
+    |           |   |   |   + fechaNacimiento: Date (get, set)
+    |           |   |   |   + color: string (get)
+    |           |   |   |   - asignarColor(posicion: number)
+    |           |   |   |       Selecciona un color diferente segun la
+    |           |   |   |       posicion del array, reutilizando la paleta
+    |           |   |   |       cuando es necesario.
+    |           |   |   |
+    |           |   |-- mappers/
+    |           |       |-- PersonaConColorMapper.ts
+    |           |           |
+    |           |           |   Convierte Persona en PersonaConColor.
+    |           |           |   Usa persona.id - 1 como posicion 0-based
+    |           |           |   del array de personas.
+    |           |
+
+Flujo de dependencias:
+
+PersonaDelDiaView
+    -> PersonaDelDiaVM
+        -> IPersonaUsecase
+            -> PersonaUsecase
+                -> IPersonaRepository
+                    -> PersonaRepository
+                        -> personasMock
+
+Flujo de transformacion:
+
+PersonaUsecase.getPersonaDelDia()
+    -> PersonaDelDiaVM.cargarPersona()
+        -> PersonaConColorMapper.toModel(persona)
+            -> PersonaConColor
+
+PersonaConColor mantiene la informacion que necesita la vista y anade
+el color asociado a la posicion de la persona en el listado.
+
+La vista no accede directamente al modelo Persona del dominio: trabaja
+con PersonaConColor a traves de PersonaDelDiaVM.

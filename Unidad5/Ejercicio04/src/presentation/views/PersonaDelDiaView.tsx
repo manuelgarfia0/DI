@@ -9,14 +9,14 @@ type PersonaDelDiaViewProps = {
 
 export function PersonaDelDiaView({ personaUsecase }: PersonaDelDiaViewProps) {
   const viewModel = new PersonaDelDiaVM(personaUsecase);
-  const iniciales = `${viewModel.persona.nombre[0]}${viewModel.persona.apellidos[0]}`;
+  const iniciales = `${viewModel.personaConColor.nombre[0]}${viewModel.personaConColor.apellidos[0]}`;
 
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         <View style={styles.card}>
           <View style={styles.cardTop}>
-            <View style={styles.avatar}>
+            <View style={[styles.avatar, { backgroundColor: viewModel.personaConColor.color }]}>
               <Text style={styles.avatarText}>{iniciales}</Text>
             </View>
             <View style={styles.badge}>
@@ -28,7 +28,7 @@ export function PersonaDelDiaView({ personaUsecase }: PersonaDelDiaViewProps) {
           <View style={styles.divider} />
           <Text style={styles.dateLabel}>FECHA DE NACIMIENTO</Text>
           <Text style={styles.date}>
-            {viewModel.persona.fechaNacimiento.toLocaleDateString("es-ES")}
+            {viewModel.personaConColor.fechaNacimiento.toLocaleDateString("es-ES")}
           </Text>
         </View>
         <Text style={styles.footer}>Una historia diferente cada dia</Text>
